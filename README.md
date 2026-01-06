@@ -61,3 +61,5 @@ This tool filters and organizes — you decide and apply.
 Disclaimer
 This project does not scrape websites or auto-apply to jobs.
 Use responsibly.
+If any quries fell free to contact 
+saisricharankolli@gmail.com / astrovex.com(coming soon ..)
