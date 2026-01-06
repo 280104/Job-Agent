@@ -26,3 +26,36 @@ No scraping. No auto-apply. No paid APIs.
 ---
 
 ## Project Structure
+job_agent/
+├── fetch_emails.py
+├── parse_jobs.py
+├── filters.py
+├── config.py # ignored (secrets)
+├── config.example.py
+├── jobs.csv # ignored
+└── README.md
+
+---
+
+## Setup
+```bash
+pip install pandas beautifulsoup4
+python parse_jobs.py
+Configure email credentials in config.py (see config.example.py).
+
+Usage
+Enable job alerts on platforms (Indeed, Naukri, Internshala, LinkedIn)
+
+Run the script daily
+
+Import jobs.csv into Google Sheets
+
+Apply manually
+
+Why manual apply?
+Auto-apply bots get accounts banned and lower interview quality.
+This tool filters and organizes — you decide and apply.
+
+Disclaimer
+This project does not scrape websites or auto-apply to jobs.
+Use responsibly.
