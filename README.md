@@ -42,6 +42,7 @@ job_agent/
 pip install pandas beautifulsoup4
 python parse_jobs.py
 Configure email credentials in config.py (see config.example.py).
+```
 
 Usage
 Enable job alerts on platforms (Indeed, Naukri, Internshala, LinkedIn)
