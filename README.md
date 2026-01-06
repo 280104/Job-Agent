@@ -25,7 +25,8 @@ No scraping. No auto-apply. No paid APIs.
 
 ---
 
-## Project Structure
+# Project Structure
+
 job_agent/
 ├── fetch_emails.py
 ├── parse_jobs.py
